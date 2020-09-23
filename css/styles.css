@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+}
+/*Home page*/
+.header{
+	width: 100vw;
+	height: 70vh;
+	background-color: rgb(41, 63, 80);
+}
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 3%; 
+}
+.menu-title{
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: 0.5px;
+	line-height: 44px;
+}
+.menu-date p{
+	font-size: 1.5em;
+	color: rgb(100, 136, 128);
+	text-align: right;
+	font-weight: 400;
+	margin-right: 3%;
+}
+ul{
+	list-style-type: none;
+	text-align: right;
+	padding-top: 8%;
+}
+li{
+	display: inline;
+	padding-right: 3%;
+}
+li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+.header-write{
+	text-align: center;
+	padding-top: 5%;
+	line-height: 40px;
+}
+.header-write h2{
+	color: rgb(100, 136, 128);
+	font-size: 2.1em;
+	font-weight: 300;
+}
+.header-write p{
+	margin-left: 25%;
+	margin-right: 25%;
+	color: white;
+	font-weight: 100;
+	font-size: 1.4em;
+	padding-bottom: 2%;
+}
+.header-write a{
+	border: 1px solid white;
+	padding: 1.5% 3%;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.1em;
+}
+.main{
+	margin-left: 20%;
+	margin-right: 20%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-top: 5%;
+	column-gap: 4%;
+}
+.main p{
+	color: rgb(156, 156, 156);
+	padding-bottom: 5%;
+}
+.main h3{
+	color: rgb(156, 156, 156);
+	font-weight: 400;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.main img{
+	border-radius: 10px;
+}
+.footer{
+	background-color: rgb(41, 63, 80);	
+	margin-top: 5%;
+	width: 100vw;
+	height: 15vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+.name-footer{
+	margin-left: 40%;
+	margin-top: 5%;
+	color: rgb(100, 136, 128);
+}
+.list-footer{
+	margin-right: 40%;
+	font-size: .7em;
+}
